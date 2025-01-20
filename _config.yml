@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Samuel Millan-Norman"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Samuel Millan-Norman"
+description              : &description "PhD student and Teaching Associate for Cardiff University School of Computer Science and Informatics."
 url                      : https://SamuelMN005.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "SamuelMN005/SamuelMN005.github.io"

@@ -1,7 +1,13 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Simulating Stretch Robot"
+excerpt: "Provided a open-source package to simulate the Stretch robot <br/><img src='/images/stretch_robot.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+The aim of this work was to support the community by providing an open-source simulation of the Stretch robot, designed by Hello Robot Inc. 
+
+The simulation provides a platform utilising the stretch robot to develop autonomous systems for navigation and mobile manipulation tasks. It uses ROS2 and Gazebo Sim Harmonic. The mobile base was designed utilising a differential controller. The robot joints, including the head, lift, arm and gripper, can be manipulated individually using an individual PID controller for each joint. A lidar and RGBD camera were implemented following the creators’ design for the sensors.
+
+The code can be found <a href="https://github.com/CardiffUniversityComputationalRobotics/stretch_ros2">here</a>
+
+<img src='/images/stretch_robot.png'>

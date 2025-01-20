@@ -1,49 +1,16 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Get to Know me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/SamuelMN005/SamuelMN005.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/SamuelMN005/SamuelMN005.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+Hello, I am Samuel, a PhD student and Teaching Associate at Cardiff University. At the age of 16, my brother introduced me to robotics. Seeming an interesting topic, I tried to build a robotic arm which mimicked my own hand utilising the InMoov project. After many failed attempts, I successfully made it work using Arduinos, flex sensors and servo motors. Within this project, my biggest weakness was the electrical aspects, and thus, I decided to pursue a degree in Electrical and Electronics Engineering. 
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+At the age of 18, I enrolled on Electrical and Electronics Engineering at Cardiff University, where I later transferred to the same degree with a year in industry. During my undergraduate studies, I joined the Autonomous Racing Cardiff Team, where I learned about the existence of a Robot Operating System (ROS). Fascinated by the complexity and elegance of this middleware, I started testing how to integrate cameras, motors, and additional scripts to interact with the peripherals of the robot. For my year in industry, I joined the IRHOMS research group at Cardiff University, where I helped develop autonomous systems applied to robotics. Within my placement, I met Dr Juan D. Hernandez Vega, who saw my interested and lack of knowledge in robotics and taught me through the fundamentals of robotics. Throughout the final year of my degree, I joined the Cardiff University Robotics Team, where, through weekly team meetings discussing articles regarding planning and other research interests of teammates, I expanded my knowledge about autonomous systems in robotics, specifically in planning. 
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/SamuelMN005/SamuelMN005.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://SamuelMN005.github.io/talkmap.html).
+After finishing my degree, I felt like my knowledge of robotics was quite weak, so I decided to undertake a PhD. Since the PhD is about becoming an expert in a specific topic and the field of robotics expands across several areas, I decided to focus on developing autonomous navigation systems for telepresence applications under the supervision of Dr Juan D. Hernandez Vega. Currently, I am enjoying every second of this journey and looking forward to future publications that are under development…
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/SamuelMN005/SamuelMN005.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/SamuelMN005/SamuelMN005.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/SamuelMN005/SamuelMN005.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/SamuelMN005/SamuelMN005.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://SamuelMN005.github.io/talks), each [individual page](https://SamuelMN005.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://SamuelMN005.github.io/cv), and the [map of places you've given a talk](https://SamuelMN005.github.io/talkmap.html) (if you run this [python file](https://github.com/SamuelMN005/SamuelMN005.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/SamuelMN005/SamuelMN005.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/SamuelMN005/SamuelMN005.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/SamuelMN005/SamuelMN005.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://SamuelMN005.github.io/markdown/), the [growing wiki](https://github.com/SamuelMN005/SamuelMN005.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/SamuelMN005/SamuelMN005.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Always welcome to collaborate, so please feel free to reach out through social media or send an email!
