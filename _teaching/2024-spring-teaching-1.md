@@ -2,7 +2,7 @@
 title: "CMT219 - Algorithms, Data Structures and Programming"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2025-autum-teaching-1
+permalink: /teaching/2024-spring-teaching-1
 venue: "Cardiff University, School of computer Science & Informatics"
 date: 2024-01-01
 location: "Cardiff, United Kingdom"
