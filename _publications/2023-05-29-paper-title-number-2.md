@@ -2,9 +2,9 @@
 title: "Online Social Robot Navigation in Indoor, Large and Crowded Environments"
 collection: publications
 category: co_conferences
-permalink: /publication/2015-10-01-paper-title-number-3
+permalink: /publication/2023-05-29-paper-title-number-2
 excerpt: ' '
-date: 2015-10-01
+date: 2023-05-29
 venue: '2023 IEEE International Conference on Robotics and Automation (ICRA)'
 paperurl: 'https://ieeexplore.ieee.org/document/10160603'
 citation: 'S. Silva, N. Verdezoto, D. Paillacho, S. Millan-Norman and J. D. Hernández, &quot;Online Social Robot Navigation in Indoor, Large and Crowded Environments,&quot; <i>2023 IEEE International Conference on Robotics and Automation (ICRA)</i>, London, United Kingdom, 2023, pp. 9749-9756, doi: 10.1109/ICRA48891.2023.10160603.'

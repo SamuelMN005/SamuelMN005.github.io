@@ -2,7 +2,7 @@
 title: "A Social Robot for Emotion Recognition and Burden Levels Assessment for Informal Caregiver"
 collection: publications
 category: workshop_conferences
-permalink: /publication/2022-08-28-paper-title-number-4
+permalink: /publication/2022-08-28-paper-title-number-1
 excerpt: ' '
 date: 2022-09-02
 venue: 'HRI4Wellbeing, a full-day hybrid workshop in conjuction with RO-MAN 2022'
