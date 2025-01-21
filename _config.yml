@@ -82,6 +82,10 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  co_conferences:
+    title: 'Co-Authored Conference Papers'
+  workshop_conferences:
+    title: 'Workshop Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
