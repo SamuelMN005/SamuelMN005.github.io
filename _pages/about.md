@@ -13,4 +13,4 @@ At the age of 18, I enrolled on BEng Electrical and Electronics Engineering at C
 
 After finishing my degree, I felt like my knowledge of robotics was quite weak, so I decided to undertake a PhD at Cardiff University within the School of Computer Science & Informatics. Since the PhD is about becoming an expert in a specific topic and the field of robotics expands across several areas, I decided to focus on developing autonomous navigation systems for telepresence applications under the supervision of Dr Juan D. Hernandez Vega. Currently, I am enjoying every second of this journey and looking forward to future publications that are under development…
 
-Always welcome to collaborate in developing workshops, conferences, events, articles and journals so please feel free to reach out through social media or send an email!
+Always welcome to collaborate in developing articles, conferences, events, journals and workshops so please feel free to reach out through social media or send an email!
