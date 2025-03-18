@@ -1,5 +1,5 @@
 ---
-title: "Simulating Stretch Robot"
+title: "1. Simulating Stretch Robot"
 excerpt: "Provided a open-source package to simulate the Stretch robot <br/><img src='/images/stretch_robot.png'>"
 collection: portfolio
 ---
