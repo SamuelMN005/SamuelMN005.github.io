@@ -1,5 +1,5 @@
 ---
-title: "2. AR application for Pick and Place operations"
+title: "2) AR application for Pick and Place operations"
 excerpt: "Learning to control a semi-autonomus simulated robotic arm <img src='/images/pickandplace_main.png'>"
 collection: portfolio
 ---

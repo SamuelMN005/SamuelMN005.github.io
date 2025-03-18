@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 - **Ph.D** in Computer Science and Informatics, *Cardiff University*, 2028 (***expected***)
-  - *Provisional Title*: "Towards Mobile Inclusive Human-Robot Collaboration via Supervisory Control and Multimodal Interactions with Telepresence Robots"
+  - *Provisional title*: "Towards Mobile Inclusive Human-Robot Collaboration via Supervisory Control and Multimodal Interactions with Telepresence Robots"
 - **BEng** in Electrical and Electronics Engineering with year in industry, *Cardiff University*, 2023 (***First Class Honours***)
 
 Work experience

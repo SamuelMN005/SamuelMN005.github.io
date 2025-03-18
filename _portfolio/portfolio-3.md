@@ -1,5 +1,5 @@
 ---
-title: "3. URDF-Importer package for Android Platforms"
+title: "3) URDF-Importer package for Android Platforms"
 excerpt: "Unity now has a URDF-Importer package for Android Platforms"
 collection: portfolio
 ---
